@@ -1,0 +1,98 @@
+live_config_reload = true
+
+[env]
+TERM = "alacritty"
+
+#[shell]
+#program = "/bin/zsh"
+#args = ["-l"]
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[window]
+opacity = 1.0
+dynamic_padding = true
+decorations_theme_variant = "Light"
+[window.padding]
+# decoration = "none"
+x = 10
+y = 12
+
+[font]
+  normal = {family = "Hack Nerd Font Mono", style = "Regular"}
+  bold = {family = "Hack Nerd Font Mono", style = "Bold"}
+  italic = {family = "Hack Nerd Font", style = "Italic"}
+  bold_italic = {family = "Hack Nerd Font", style = "Bold Italic"}
+  size = 11
+
+
+[cursor]
+style = {shape =  "Block", blinking = "Never"}
+unfocused_hollow = true
+
+# BEGIN WAL
+[colors.primary]
+background = '#0f1310'
+foreground = '#d9e0e4'
+
+[colors.cursor]
+text   = '#0f1310' # Apply background color to color of text inside cursor
+cursor = '#d9e0e4' # Apply foreground color to color of cursor
+
+[colors.vi_mode_cursor]
+text    = '#0f1310' # Same as above
+cursor  = '#d9e0e4'
+
+[colors.search.matches]
+foreground = '#0f1310' # Same as above
+background = '#d9e0e4' # Apply bright/white color to bg color of matching search
+
+[colors.search.focused_match]
+foreground = 'CellBackground'
+background = 'CellForeground'
+
+[colors.line_indicator]
+foreground = 'None'
+background = 'None'
+
+[colors.footer_bar]
+foreground = '#979c9f'
+background = '#d9e0e4'
+
+[colors.selection]
+text       = 'CellBackground'
+background = 'CellForeground'
+
+[colors.normal]
+black   = '#0f1310'
+red     = '#6A7C83'
+green   = '#788A93'
+yellow  = '#92A2AD'
+blue    = '#98AAB4'
+magenta = '#A9BAC5'
+cyan    = '#B7C6D0'
+white   = '#d9e0e4'
+
+[colors.bright]
+black   = '#979c9f'
+red     = '#6A7C83'
+green   = '#788A93'
+yellow  = '#92A2AD'
+blue    = '#98AAB4'
+magenta = '#A9BAC5'
+cyan    = '#B7C6D0'
+white   = '#d9e0e4'
+# END WAL
