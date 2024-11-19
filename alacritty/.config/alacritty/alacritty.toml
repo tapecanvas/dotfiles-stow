@@ -1,4 +1,4 @@
-live_config_reload = true
+general.live_config_reload = true
 
 [env]
 TERM = "alacritty"
@@ -45,20 +45,20 @@ unfocused_hollow = true
 
 # BEGIN WAL
 [colors.primary]
-background = '#0f1310'
-foreground = '#d9e0e4'
+background = '#12283d'
+foreground = '#dadbde'
 
 [colors.cursor]
-text   = '#0f1310' # Apply background color to color of text inside cursor
-cursor = '#d9e0e4' # Apply foreground color to color of cursor
+text   = '#12283d' # Apply background color to color of text inside cursor
+cursor = '#dadbde' # Apply foreground color to color of cursor
 
 [colors.vi_mode_cursor]
-text    = '#0f1310' # Same as above
-cursor  = '#d9e0e4'
+text    = '#12283d' # Same as above
+cursor  = '#dadbde'
 
 [colors.search.matches]
-foreground = '#0f1310' # Same as above
-background = '#d9e0e4' # Apply bright/white color to bg color of matching search
+foreground = '#12283d' # Same as above
+background = '#dadbde' # Apply bright/white color to bg color of matching search
 
 [colors.search.focused_match]
 foreground = 'CellBackground'
@@ -69,30 +69,30 @@ foreground = 'None'
 background = 'None'
 
 [colors.footer_bar]
-foreground = '#979c9f'
-background = '#d9e0e4'
+foreground = '#98999b'
+background = '#dadbde'
 
 [colors.selection]
 text       = 'CellBackground'
 background = 'CellForeground'
 
 [colors.normal]
-black   = '#0f1310'
-red     = '#6A7C83'
-green   = '#788A93'
-yellow  = '#92A2AD'
-blue    = '#98AAB4'
-magenta = '#A9BAC5'
-cyan    = '#B7C6D0'
-white   = '#d9e0e4'
+black   = '#12283d'
+red     = '#729FC6'
+green   = '#C19FB7'
+yellow  = '#C5B1BB'
+blue    = '#97B2CD'
+magenta = '#B2B8CA'
+cyan    = '#C5BBC2'
+white   = '#dadbde'
 
 [colors.bright]
-black   = '#979c9f'
-red     = '#6A7C83'
-green   = '#788A93'
-yellow  = '#92A2AD'
-blue    = '#98AAB4'
-magenta = '#A9BAC5'
-cyan    = '#B7C6D0'
-white   = '#d9e0e4'
+black   = '#98999b'
+red     = '#729FC6'
+green   = '#C19FB7'
+yellow  = '#C5B1BB'
+blue    = '#97B2CD'
+magenta = '#B2B8CA'
+cyan    = '#C5BBC2'
+white   = '#dadbde'
 # END WAL
