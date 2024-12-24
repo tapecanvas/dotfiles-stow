@@ -45,7 +45,6 @@ unfocused_hollow = true
 
 # BEGIN WAL
 [colors.primary]
-background = '#12283d'
 background = '#0b0a06'
 foreground = '#d5d5d1'
 
