@@ -7,6 +7,9 @@ set $mod Mod4
 font pango:monospace 12
 
 exec --no-startup-id xrandr --output eDP-1 --mode 1920x1080
+# when using projector on window 10 (un-comment next two lines)
+#exec --no-startup-id xrandr --output HDMI-1 --right-of eDP-1
+#workspace 10 output HDMI-1
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
